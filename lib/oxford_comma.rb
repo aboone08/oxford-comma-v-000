@@ -4,7 +4,7 @@ def oxford_comma(array)
     puts "the element is #{element}"
     puts "the index is #{index}"
   end
-  if i>1
+  if index>1
   array.insert(-2, "and").to_s
   end
 end
