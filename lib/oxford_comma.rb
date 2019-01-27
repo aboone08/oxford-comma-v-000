@@ -1,5 +1,8 @@
 def oxford_comma(array)
-  array = Array.new
-  str = array.join(",")insert(-1, "and")
-  array.push str
+  array = [""]
+  array.each_with_index do |element, index|
+    return element 
+    return index
+  end
+  array.insert(-2, "and").to_s
 end
